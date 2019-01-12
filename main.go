@@ -10,7 +10,7 @@ type Node struct {
 
 func main() {
 	var N int
-	fmt.Scan("%d", &N)
+	fmt.Scanf("%d", &N)
 	fmt.Println(N)
 }
 func printNode(n *Node) {
