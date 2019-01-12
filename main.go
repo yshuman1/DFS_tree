@@ -9,15 +9,9 @@ type Node struct {
 }
 
 func main() {
-	test := &Node{
-		Value: 123,
-	}
-	right := &Node{
-		Value: 333,
-	}
-	test.Right = right
-	fmt.Println(test)
-	printNode(test)
+	var N int
+	fmt.Scan("%d", &N)
+	fmt.Println(N)
 }
 func printNode(n *Node) {
 	fmt.Print("Value: ", n.Value)
