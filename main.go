@@ -38,7 +38,7 @@ func read() []Node {
 	// for loop.
 	for i := 0; i < N; i++ {
 		var val, indexLeft, indexRight int
-		fmt.Scanf("%d %d %d", &val, &indexLeft, &indexRight)
+		fmt.Scanf("%d %d %d\n", &val, &indexLeft, &indexRight)
 		nodes[i].Value = val
 		if indexLeft >= 0 {
 			nodes[i].Left = &nodes[indexLeft]
